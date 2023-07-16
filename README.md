@@ -5,7 +5,7 @@
 Shown here installed in the connector shell from a cheap eBay MIDI cable
 
 ## Overview
-This little board provides a way to build an active MIDI Out cable that plugs into the gameport of a vintage PC sound card (or [HardMPU-WT](https://github.com/PickledDog/hardmpu-wt). It does not provide MIDI In. With this board and BOM, you will be able to make a proper buffered MIDI cable that can be used with any gameport sound card.
+This little board provides a way to build an active MIDI Out cable that plugs into the gameport of a vintage PC sound card (or [HardMPU-WT](https://github.com/PickledDog/hardmpu-wt)). It does not provide MIDI In. With this board and BOM, you will be able to make a proper buffered MIDI cable that can be used with any gameport sound card.
 
 ## Assembly
 When ordering boards, select 1.2mm-thick PCB. You can use regular 1.6mm (as in my build), but it's an *extremely* tight fit - not recommended.
@@ -21,7 +21,7 @@ Wanna learn? This is a pretty good place to start - most parts are simple 2-term
 You'll need a DA-15 female socket and some 10-core cable to wire it in. Solder the necessary wires to the solder cups, and route the wires over the top and bottom of the board. Note that you cannot connect a joystick to a HardMPU-WT; it's MIDI-only.
 
 ## Part selection
-This project is basically all jellybean parts - just use what you have on hand as applicable. R1 and R4 don't have to be *exactly* 240Ω, so long as they both add up to around ~480Ω (for example, you can use a 200Ω and a 270Ω if you want). You'll need to find some 3+ core cable (preferably shielded, but unshielded is fine). You can also use a [cheap eBay MIDI cable](https://www.ebay.com/sch/i.html?_nkw=game+port+midi+cable) instead of buying the plugs, shells, and cable - the common "metal plugs" kind will provide enough parts to make 2 cables (although you need to buy one male DA-15 plug, since the cable provides one female we can't use here). These eBay cables are completely passive and can damage your synthesizer, but you can fix them with this little board!
+This project is basically all jellybean parts - just use what you have on hand as applicable. R1 and R4 don't have to be *exactly* 240Ω, so long as they both add up to around ~480Ω (for example, you can use a 200Ω and a 270Ω if you want, or just two 220Ω). You'll need to get some cable - the MIDI Manufacturer's Association recommends shielded twisted pair cable (so, shield + one pair). Another option is to cut an existing MIDI cable in half (make two cables!)
 
 ## Parts list
 Bill Of Materials and part references are below. The specified parts are just the ones I used, and can be substituted as needed - Mouser links provided for convenience and reference. The cable required is *not* in the BOM - you'll need to source it yourself.
