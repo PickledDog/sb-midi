@@ -21,10 +21,10 @@ Wanna learn? This is a pretty good place to start - most parts are simple 2-term
 You'll need a DA-15 female socket and some 10-core cable to wire it in. Solder the necessary wires to the solder cups, and route the wires over the top and bottom of the board. Note that you cannot connect a joystick to a HardMPU-WT; it's MIDI-only.
 
 ## Part selection
-This project is basically all jellybean parts - just use what you have on hand as applicable. R1 and R4 don't have to be *exactly* 240Ω, so long as they both add up to around ~480Ω (for example, you can use a 200Ω and a 270Ω if you want, or just two 220Ω). You'll need to get some cable - the MIDI Manufacturer's Association recommends shielded twisted pair cable (so, shield + one pair). Another option is to cut an existing MIDI cable in half (make two cables!)
+This project is basically all jellybean parts - just use what you have on hand as applicable. R1 and R4 don't have to be *exactly* 240Ω, so long as they both add up to around ~480Ω (for example, you can use a 200Ω and a 270Ω if you want, or just two 220Ω). You'll need to get some cable - the MIDI Manufacturer's Association recommends shielded twisted pair (shield + one pair), an example of which is listed below. Another option is to cut an existing MIDI cable in half (make two cables!)
 
 ## Parts list
-Bill Of Materials and part references are below. The specified parts are just the ones I used, and can be substituted as needed - Mouser links provided for convenience and reference. The cable required is *not* in the BOM - you'll need to source it yourself.
+Bill Of Materials and part references are below. The specified parts are just the ones I used, and can be substituted as needed - Mouser links provided for convenience and reference. The listed cable is purchased by the foot.
 
 | Reference | Value | Qty | Mouser link |
 | --------- | ----- | --- | ----------- |
@@ -36,3 +36,4 @@ Bill Of Materials and part references are below. The specified parts are just th
 | R2 | 10kΩ resistor | 1 | [Yageo RC0805FR-0710KL](https://www.mouser.com/ProductDetail/603-RC0805FR-0710KL) |
 | R3 | 2k2Ω resistor | 1 | [Yageo RC0805FR-072K2L](https://www.mouser.com/ProductDetail/603-RC0805FR-072K2L) |
 | | 5-pin DIN plug | 1 | [CUI SD-50](https://www.mouser.com/ProductDetail/490-SD-50) |
+| | 1P STP cable | | [AlphaWire M9520010](https://www.mouser.com/ProductDetail/602-M9520010BK199) |
